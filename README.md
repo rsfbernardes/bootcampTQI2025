@@ -1,3 +1,24 @@
+# 📚 Desafio AWS TQI/DIO: Comparativo e Implementação de Arquiteturas
+
+Repositório criado para cumprir o desafio do **Bootcamp TQI na DIO**, explorando duas arquiteturas distintas da AWS para o processamento de dados.
+
+## O Desafio
+
+O desafio proposto consistia em escolher e implementar uma das seguintes abordagens para o processamento de dados assíncrono:
+
+1.  **Serverless:** Utilizando **AWS Lambda** e **Amazon S3**.
+2.  **Computação Tradicional:** Utilizando **Amazon EC2** e **Amazon EBS**.
+
+## Solução Implementada
+
+Para demonstrar proficiência em ambas as abordagens, a solução final adotada neste repositório é uma **Arquitetura Híbrida** que combina a eficiência da orquestração *serverless* do **Lambda** com a capacidade de processamento persistente do **EC2/EBS**.
+
+Os principais componentes e seu fluxo de trabalho estão detalhados a seguir.
+
+---
+---
+---
+
 # ☁️ Arquitetura de Processamento Assíncrono: S3, Lambda, EC2 e EBS
 
 Esta documentação descreve uma arquitetura de referência na **AWS (Amazon Web Services)** projetada para lidar com cargas de trabalho de **processamento assíncrono e de longa duração**, garantindo a **persistência dos dados** através do EBS.
